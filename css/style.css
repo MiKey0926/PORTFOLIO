@@ -359,9 +359,33 @@ footer {
   padding-block: 24px 35px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 15px;
   color: #6f6b65;
   font: 400 .64rem "DM Mono",monospace;
+}
+footer span:last-child {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+footer a {
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  padding: 7px 10px;
+  color: var(--wine);
+  font-weight: 500;
+  text-decoration: none;
+  transition: background .2s,color .2s,transform .2s;
+}
+footer a:hover,
+footer a:focus-visible {
+  background: var(--wine);
+  color: #fff;
+  outline: none;
+  transform: translateY(-2px);
 }
 @media(min-width:768px) {
   .container {
