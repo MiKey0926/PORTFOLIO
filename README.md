@@ -42,20 +42,6 @@ PORTFOLIO/
     `-- logo.png        # Portfolio logo asset
 ```
 
-## Run locally
-
-Because the website loads `data/data.json` with JavaScript's `fetch()` API, serve the folder through a local web server instead of opening `index.html` directly from the file system.
-
-If Python is installed, open a terminal in the project folder and run:
-
-```powershell
-python -m http.server 8000
-```
-
-Then visit [http://localhost:8000](http://localhost:8000) in a browser. Stop the server with `Ctrl+C` when finished.
-
-You can also use the **Live Server** extension in VS Code: open `index.html`, then select **Open with Live Server**.
-
 ## Customize the portfolio
 
 ### Update content
